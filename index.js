@@ -120,6 +120,6 @@ function t() {
 }
 
 // Custom Endpoints
-document.getElementById("firstname").innerHTML=_firstname;
-document.getElementById("lastname").innerHTML=_lastname;
-document.getElementById("rollNumber").innerHTML=_roll;
+//document.getElementById("firstname").innerHTML=_firstname;
+//document.getElementById("lastname").innerHTML=_lastname;
+//document.getElementById("rollNumber").innerHTML=_roll;
