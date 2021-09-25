@@ -1,6 +1,6 @@
-<span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> python svm_<div id="firstname"></div>.py
+<span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> python svm_<p id="firstname"></p>.py
 
-[Created By: <div id="firstname"></div> <div id="lastname"></div> | A-<div id="rollNumber"></div> | Semester: VII | Subject: Deep Learning]
+[Created By: <p id="firstname"></p> <p id="lastname"></p> | A-<p id="rollNumber"></p> | Semester: VII | Subject: Deep Learning]
 
 /usr/local/lib/python3.5/dist-packages/sklearn/cross_validation.py:44: DeprecationW
 the model selection module into which all the refactored classes and functions are
