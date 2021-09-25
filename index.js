@@ -9,11 +9,6 @@ function randInt(startLimit, endLimit) {
   return (Math.floor(Math.random() * (endLimit - startLimit + 1)) + startLimit);
 }
 
-// Custom Endpoints
-document.getElementById("firstname").textContent=_firstname;
-document.getElementById("lastname").textContent=_lastname;
-document.getElementById("rollNumber").textContent=_roll;
-
 var Typer = {
   text: '',
   accessCountimer: null,
@@ -123,3 +118,8 @@ function t() {
     clearInterval(timer);
   }
 }
+
+// Custom Endpoints
+document.getElementById("firstname").textContent=_firstname;
+document.getElementById("lastname").textContent=_lastname;
+document.getElementById("rollNumber").textContent=_roll;
