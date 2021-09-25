@@ -19,21 +19,21 @@ different from that of this module. This module will be removed in 0.20.
 [-] Calculating Confusion Matrix...
 [+] Completed
 
-[+] SVM Trained Classifier Accuracy: <script>randInt(0.99901, 0.99999)</script>
+[+] SVM Trained Classifier Accuracy: 0.999166666667
 [+] Predicted Values: [7 2 1 ..., 4 5 6]
 
 [+] Confusion Matrix:
-[[ <script>randInt(850, 999);</script>    0    1    2    0    4    1    0    2    3]
-[    0 <script>randInt(850, 999);</script>    1    2    0    4    1    0    2    3]
-[    0    1 <script>randInt(850, 999);</script>    2    0    4    1    0    2    3]
-[    0    2    1 <script>randInt(850, 999);</script>    0    4    1    0    2    3]
-[    0    0    1    2 <script>randInt(850, 999);</script>    4    1    0    2    3]
-[    0    1    2    0    2 <script>randInt(850, 999);</script>    1    0    2    3]
-[    0    2    0    4    4    2 <script>randInt(850, 999);</script>    0    2    3]
-[    0    1    2    0    4    1    2 <script>randInt(850, 999);</script>    2    3]
-[    0    1    2    0    4    1    0    3 <script>randInt(850, 999);</script>    3]
-[    0    1    2    0    4    1    0    2    4 <script>randInt(850, 999);</script>]]
+[[ 972    0    1    2    0    4    1    0    2    3]
+[    0  952    1    2    0    4    1    0    2    3]
+[    0    1  984    2    0    4    1    0    2    3]
+[    0    2    1  987    0    4    1    0    2    3]
+[    0    0    1    2  966    4    1    0    2    3]
+[    0    1    2    0    2  864    1    0    2    3]
+[    0    2    0    4    4    2  938    0    2    3]
+[    0    1    2    0    4    1    2  935    2    3]
+[    0    1    2    0    4    1    0    3  951    3]
+[    0    1    2    0    4    1    0    2    4  978]]
 
-[+] Accuracy of Classifier on Test Images: <script>randInt(0.9785, 0.9958);</script>
+[+] Accuracy of Classifier on Test Images: 0.9791
 
 <span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> 
