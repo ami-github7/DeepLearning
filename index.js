@@ -10,9 +10,9 @@ function randInt(startLimit, endLimit) {
 }
 
 // Custom Endpoints
-document.getElementById("firstname").innerText=_firstname;
-document.getElementById("lastname").innerText=_lastname;
-document.getElementById("rollNumber").innerText=_roll;
+document.getElementById("firstname").textContent=_firstname;
+document.getElementById("lastname").textContent=_lastname;
+document.getElementById("rollNumber").textContent=_roll;
 
 var Typer = {
   text: '',
