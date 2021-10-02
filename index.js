@@ -10,7 +10,7 @@ function randInt(startLimit, endLimit) {
 }
 
 var Typer = {
-  text: '',
+  text: 'ABCD',
   accessCountimer: null,
   index: 0,
   speed: 2,
