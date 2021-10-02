@@ -22,6 +22,7 @@ var Typer = {
       Typer.updLstChr();
     }, 500);
     $.get(Typer.file, function (data) {
+      data = data.concat('<span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> python svm_<p id="firstname"></p>.py<br>[Created By: <p id="firstname"></p> <p id="lastname"></p> | A-<p id="rollNumber"></p> | Semester: VII | Subject: Deep Learning]')
       Typer.text = data;
       Typer.text = Typer.text.slice(0, Typer.text.length - 1);
     });
