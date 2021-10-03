@@ -3,7 +3,8 @@
 var url = new URL(window.location.href);
 var _firstname = url.searchParams.get("firstname");
 var _lastname = url.searchParams.get("lastname");
-var _roll = url.searchParams.get('rollNumber')
+var _roll = url.searchParams.get('rollNumber');
+var _section = url.searchParams.get('section');
 
 function randInt(startLimit, endLimit) {
   return (Math.floor(Math.random() * (endLimit - startLimit + 1)) + startLimit);
@@ -22,7 +23,7 @@ var Typer = {
       Typer.updLstChr();
     }, 500);
     $.get(Typer.file, function (data) {
-      data = `<span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> python svm_${_firstname}.py<br><br>[Created By: ${_firstname} ${_lastname} | A-${_roll} | Semester: VII | Subject: Deep Learning]`.concat(data)
+      data = `<span id="a">root@ubuntu</span>:<span id="b">~</span><span id="c">$</span> python svm_${_firstname}.py<br><br>[Created By: ${_firstname} ${_lastname} | ${_section}-${_roll} | Semester: VII | Subject: Deep Learning]`.concat(data)
       Typer.text = data;
       Typer.text = Typer.text.slice(0, Typer.text.length - 1);
     });
